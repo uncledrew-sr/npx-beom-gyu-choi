@@ -1,6 +1,7 @@
 # npx-beom-gyu-choi
 
 > **Software Engineer (AI / Full-Stack)**
+>  
 > "Bridging the gap between advanced LLM architectures and scalable web applications."
 
 - 터미널(CLI) 환경에서 인터랙티브하게 확인할 수 있는 터미널 명함 및 미니 이력서 패키지입니다. 
