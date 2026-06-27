@@ -26,7 +26,11 @@ const data = {
   linkedin: labelStyle('  LinkedIn: ') + linkStyle('https://www.linkedin.com/in/beomgyu-choi-035263320/'),
   web: labelStyle(' Portfolio: ') + chalk.dim('https://beomgyu-choi.dev (Coming soon)'),
   
-  npx: chalk.inverse.bold.cyan(' npx beom-gyu-choi ')
+  npx: chalk.inverse.bold.cyan(' npx beom-gyu-choi '),
+  
+  contact: labelStyle('Contact\n') +
+            labelStyle('  Personal: ') + linkStyle('bonggutravel@gmail.com') + '\n' +
+            labelStyle('      Work: ') + linkStyle('fredb@stu.jejunu.ac.kr')
 };
 
 const table = new Table({
@@ -53,6 +57,8 @@ ${data.work}
 
 ${labelStyle('Honors & Awards')}
 ${table.toString()}
+
+${data.contact}
 
 ${data.github}
 ${data.linkedin}
