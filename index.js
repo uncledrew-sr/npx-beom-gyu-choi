@@ -46,7 +46,7 @@ table.push(
   [dateStyle('Aug 19, 2025'), valueStyle('In-Jeju Challenge'), chalk.yellow('🏆 Grand Prize'), valueStyle('Infra, BE')],
   [dateStyle('Dec 04, 2025'), valueStyle('RISE Capstone Design Result-Presentation'), chalk.hex('#C0C0C0')('🥈 Excellence Prize'), valueStyle('NLP, T5')],
   [dateStyle('Dec 18, 2025'), valueStyle('한국데이터사이언스학회 동계종합학술대회'), chalk.hex('#CD7F32')('🏅 Honorable Mention'), valueStyle('CV, Edge AI')],
-  [dateStyle('Feb 26, 2026'), valueStyle('ICAIC 2026 (Tokyo, Japan)'), chalk.bold.hex('#A020F0')('🌐 Poster Present.'), valueStyle('NLP, T5')]
+  [dateStyle('Feb 26, 2026'), valueStyle('ICAIIC 2026 (Tokyo, Japan)'), chalk.bold.hex('#A020F0')('🌐 Poster Present.'), valueStyle('NLP, T5')]
 );
 
 const output = `
