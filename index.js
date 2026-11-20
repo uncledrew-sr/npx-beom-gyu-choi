@@ -1,4 +1,3 @@
-
 #!/usr/bin/env node
 
 import chalk from 'chalk';
@@ -16,8 +15,8 @@ const descriptionStyle = chalk.hex('#CBD5E1');
 
 const data = {
   name: titleStyle(' BEOMGYU CHOI '),
-  handle: subtitleStyle('Software Engineer (AI / Full-Stack)'),
-  tagline: chalk.white('\n"Bridging the gap between LLMs and scalable web apps."'),
+  handle: subtitleStyle('Software Engineer (Cloud / Full-Stack)'),
+  tagline: chalk.white('\n"Buy and hold."'),
 
   work: labelStyle('Experience\n') +
         `  • ${valueStyle('Executive Organizer @ LIKELION JNU 14th')} ${dateStyle('(Feb 2026 - Present)')}\n` +
